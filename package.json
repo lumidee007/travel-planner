@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "exports": "./index.mjs",
+  "main": "index.js",
   "scripts": {
     "test": "jest",
     "start": "node src/server/index.js",

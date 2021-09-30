@@ -91,7 +91,7 @@
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify(travelDetails)
             };
-            const db_response = await fetch('http://localhost:4000/weather', options);
+            const db_response = await fetch('http://localhost:1966/weather', options);
             const db_json = await db_response.json();
     
     } catch (error) {
