@@ -4,7 +4,7 @@ document.querySelector('.save').addEventListener('click', updateUI)
 // Update The UI dynamically
 export async function updateUI() {
     try {
-        const request = await fetch("http://localhost:2222/weather");
+        const request = await fetch("http://localhost:4000/weather");
        const allWeatherInfo = await request.json(); 
        document.querySelector('#travel-section').style.display = "none"
        document.querySelector('.output').style.display = "flex" 

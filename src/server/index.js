@@ -36,7 +36,7 @@ function getWeather(request, response) {
 
 
 
-let port = process.env.PORT || 2222;
+let port = process.env.PORT || 4000;
 
 
 app.listen(port, function () {
