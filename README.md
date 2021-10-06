@@ -6,7 +6,7 @@ This application allows user to enter a city (destination) and the date (travel 
 - Geonames
 - Pixabay
 - Weatherbit
-
+_ Openweather 
 
 # Setup project environment [ dependencies & devDependencies ]
 

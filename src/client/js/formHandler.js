@@ -25,13 +25,21 @@
 
 
             // GEONAMES FETCH REQUEST
-            const geo_res = await fetch(`http://api.geonames.org/searchJSON?q=${destination}&username=famoochi`)
-            const geo_data = await geo_res.json()
-            const lat = geo_data.geonames[0].lat
-            const long = geo_data.geonames[0].lng
-            const countryName = geo_data.geonames[0].countryName ? geo_data.geonames[0].countryName : "---"
-            const name = geo_data.geonames[0].name
+            // const geo_res = await fetch(`http://api.geonames.org/searchJSON?q=${destination}&username=famoochi`)
+            // const geo_data = await geo_res.json()
+            // const lat = geo_data.geonames[0].lat
+            // const long = geo_data.geonames[0].lng
+            // const countryName = geo_data.geonames[0].countryName ? geo_data.geonames[0].countryName : "---"
+            // const name = geo_data.geonames[0].name
 
+            //using Openweather API
+            let API_KEY_OPENWEATHER = 'ae8183305930109bde697b966d0122af'
+            const open_res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${destination}&appid=${API_KEY_OPENWEATHER}`)
+            const open_data = await open_res.json()
+            const lat = open_data.coord.lat
+            const long = open_data.coord.lon
+            const countryName = open_data.sys.country
+            const name = open_data.name
 
             // WEATHERBIT FETCH REQUEST
             let API_KEY_WEATHERBIT = '80da14218e3c4dd798f7f1cf19ec2ee8';
