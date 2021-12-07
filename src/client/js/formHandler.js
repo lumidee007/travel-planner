@@ -42,7 +42,7 @@
             const name = open_data.name
 
             // WEATHERBIT FETCH REQUEST
-            let API_KEY_WEATHERBIT = '80da14218e3c4dd798f7f1cf19ec2ee8';
+            let API_KEY_WEATHERBIT = 'f58bfc953b924c1299330963ca44e6a9';
             let weather_res = daysDiff > 7 ? await fetch(`https://api.weatherbit.io/v2.0/forecast/daily?city=${destination}&key=${API_KEY_WEATHERBIT}`) : await fetch(`https://api.weatherbit.io/v2.0/current?lat=${lat}&lon=${long}&key=${API_KEY_WEATHERBIT}&include=minutely`);
 
             const weather_data = await weather_res.json()
