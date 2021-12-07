@@ -30,7 +30,7 @@
             // const lat = geo_data.geonames[0].lat
             // const long = geo_data.geonames[0].lng
             // const countryName = geo_data.geonames[0].countryName ? geo_data.geonames[0].countryName : "---"
-            // const name = geo_data.geonames[0].name
+            //// const name = geo_data.geonames[0].name
 
             //using Openweather API
             let API_KEY_OPENWEATHER = 'ae8183305930109bde697b966d0122af'
