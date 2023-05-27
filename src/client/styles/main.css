@@ -1,0 +1,168 @@
+h3 {
+  padding: 0.5rem;
+  font-weight: bolder;
+}
+
+.low {
+  margin-left: 0.3rem;
+}
+.SaveRemove {
+  margin-bottom: 15px;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+label {
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+#remove,
+.save {
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s all;
+  border: none;
+  border-radius: 5px;
+  margin-top: 0;
+}
+
+#remove {
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 226, 129);
+}
+.save {
+  color: green;
+  background-color: rgb(255, 226, 129);
+}
+
+#remove:hover,
+.save:hover {
+  color: white;
+  transform: scale(0.9);
+}
+
+#remove:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.save:hover {
+  background-color: green;
+}
+
+form {
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+  background: linear-gradient(to right, #f6b00e, #f6792b);
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 6px 20px;
+  width: 100%;
+  line-height: 16px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+#travel-section {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: center;
+}
+
+#submit {
+  border: none;
+  border-radius: 5px;
+  padding: 0.4em;
+  background-color: rgb(58, 58, 58);
+  color: white;
+  text-transform: capitalize;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 1em 0;
+  background-image: linear-gradient(
+    40deg,
+    rgba(207, 63, 27, 0.205),
+    rgb(206, 163, 23),
+    rgb(9, 0, 128)
+  );
+  transition: 0.5s all;
+}
+
+#submit:hover {
+  color: rgb(0, 0, 0);
+  transform: scale(1.02);
+}
+
+.hideSection {
+  display: none;
+}
+
+.imgContainer {
+  border-radius: 5px;
+}
+
+.travelImage {
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  border-radius: 20px;
+}
+
+.travel-info {
+  width: 100%;
+}
+
+.travel-temp-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.travelDetails {
+  max-width: 300px;
+  border-radius: 10px;
+  margin: 15px auto;
+  box-shadow: 2px 4px 5px #fd9e00;
+  background-color: rgb(255, 254, 254);
+  border-radius: 20px;
+  padding: 5px;
+}
+.output {
+  background: linear-gradient(to right, #f6b00e, #80e96d);
+  opacity: 1;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 405px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+  header .container p {
+    font-size: 0.2rem;
+  }
+
+  .plane {
+    display: none;
+  }
+
+  label {
+    font-size: 0.9rem;
+  }
+
+  input {
+    padding: 3px 5px;
+    font-size: 0.9rem;
+  }
+}

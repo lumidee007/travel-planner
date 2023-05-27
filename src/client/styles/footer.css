@@ -1,0 +1,11 @@
+footer {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #fd9e00;
+  position: sticky;
+  top: 100vh;
+}
+
+footer .container p {
+  font-size: 1.1rem;
+}

@@ -1,0 +1,26 @@
+header {
+  padding: 5px 0;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #fd9e00;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header .container p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.container p {
+  font-size: 1.1rem;
+}
+
+.container .plane {
+  font-size: 2rem;
+  padding: 5px 0;
+}

@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 0.8rem;
+}
+
+body {
+  font-family: "Playfair", serif;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  background-color: #edcc95;
+  background: linear-gradient(to right, #57ac4b, #cbe459);
+}
+
+section {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.travel-info h3 {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.travel-info #datenow {
+  font-size: small;
+  font-style: italic;
+}
+
+#icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconTemp {
+  display: flex;
+  align-items: center;
+}
+
+.iconTemp {
+  width: 40%;
+}
+
+#icon img {
+  font-size: 0.1rem;
+  width: 70px;
+}
+
+.iconTemp p {
+  font-size: 1rem;
+  align-self: flex-start;
+  margin-left: -30px;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+#icon p {
+  align-self: center;
+  word-wrap: break-word;
+}
+
+#weather-p {
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+
+.travel-temp-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-style: italic;
+  margin: 15px;
+}
+
+.travel-info #weatherInfo {
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: slateblue;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: -200px;
+  font-size: 15px;
+}
