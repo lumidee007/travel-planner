@@ -38,7 +38,7 @@ export async function handleSubmit(event) {
       const name = open_data.name;
 
       // WEATHERBIT FETCH REQUEST
-      let API_KEY_WEATHERBIT = "af46911e07bd4dd499726fce845f3e09";
+      let API_KEY_WEATHERBIT = "07782d4256f14f2289661151ca6f3aa8";
       let weather_res =
         daysDiff > 7
           ? await fetch(
